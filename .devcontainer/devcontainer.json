@@ -1,0 +1,12 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+	],
+	"service": "nginx",
+	"workspaceFolder": "/var/www/html",
+	"settings": {
+		"terminal.integrated.shell.linux": null
+	},
+	"extensions": []
+}

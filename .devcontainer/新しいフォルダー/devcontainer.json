@@ -1,0 +1,7 @@
+{
+    "name": "php",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/var/www/html",
+    "postCreateCommand": "yarn install"
+}
